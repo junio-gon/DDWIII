@@ -12,3 +12,17 @@ C:\Projects\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.
 C:\Projects\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.RazorTargetAssemblyInfo.cache
 C:\Projects\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.dll
 C:\Projects\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.pdb
+C:\Projects\DDWIII\Application.API\Application.API\bin\Debug\netcoreapp2.1\Application.API.deps.json
+C:\Projects\DDWIII\Application.API\Application.API\bin\Debug\netcoreapp2.1\Application.API.runtimeconfig.json
+C:\Projects\DDWIII\Application.API\Application.API\bin\Debug\netcoreapp2.1\Application.API.runtimeconfig.dev.json
+C:\Projects\DDWIII\Application.API\Application.API\bin\Debug\netcoreapp2.1\Application.API.dll
+C:\Projects\DDWIII\Application.API\Application.API\bin\Debug\netcoreapp2.1\Application.API.pdb
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.csprojAssemblyReference.cache
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.csproj.CoreCompileInputs.cache
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.RazorAssemblyInfo.cache
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.RazorAssemblyInfo.cs
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.AssemblyInfoInputs.cache
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.AssemblyInfo.cs
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.RazorTargetAssemblyInfo.cache
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.dll
+C:\Projects\DDWIII\Application.API\Application.API\obj\Debug\netcoreapp2.1\Application.API.pdb

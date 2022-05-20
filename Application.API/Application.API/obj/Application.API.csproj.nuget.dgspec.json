@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Application.API\\Application.API\\Application.API.csproj": {}
+    "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Application.API\\Application.API\\Application.API.csproj": {
+    "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Application.API\\Application.API\\Application.API.csproj",
+        "projectUniqueName": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
         "projectName": "Application.API",
-        "projectPath": "C:\\Projects\\Application.API\\Application.API\\Application.API.csproj",
+        "projectPath": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
         "packagesPath": "C:\\Users\\LabInfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Application.API\\Application.API\\obj\\",
+        "outputPath": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -54,6 +54,20 @@
               "target": "Package",
               "version": "[2.1.2, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
             "Microsoft.NETCore.App": {
               "target": "Package",
               "version": "[2.1.0, )",
@@ -62,6 +76,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[2.1.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.4, )"
             }
           },
           "imports": [
