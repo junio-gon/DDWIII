@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <form name="form" id="form" action="#">
+            <input autofocus autocomplete="off" v-model="cep" id="cep" name="cep" maxlength="8" placeholder="Digite o Cep" type="text"><br><br>
+            <button id="btnEnviar" v-on:click="buscarCep">Buscar</button><br><br>
+            {{ info }}
+        </form>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="js/axios.min.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            info: '',
+            cep: ''
+        },
+        // mounted(){
+        //     //http://viacep.com.br/ws/01001000/json/
+        //     axios
+        //         .get('http://viacep.com.br/ws/01001000/json/')
+        //         .then( response => (
+        //             this.info = response
+        //         ))
+        // }
+        methods:{
+            buscarCep: function ( event ){
+                event.preventDefault();
+                if (this.cep != '') {
+                    axios
+                    .get(`http://viacep.com.br/ws/${this.cep}/json/`)
+                    .then( response => (
+                        this.info = response
+                    ))
+                }
+            }
+        }
+    })
+</script>
+</html>
