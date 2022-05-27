@@ -13,7 +13,7 @@ namespace Application.API.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
+            optionsBuilder.UseMySql("Server=localhost;Database=exemploasp;User Id=root;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
