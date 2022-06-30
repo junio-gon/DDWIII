@@ -20,5 +20,25 @@ namespace Application.API.Data
         {
 
         }
+
+        public Task<int> SaveChangesAsync()
+        {
+            foreach (var item in ChangeTracker.Entries<Contatos>().Where( entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
+            {
+                if (item.State == EntityState.Added)
+                {
+                    item.Property("DataCadastro").CurrentValue = DateTime.Now;
+                    item.Property("DataAlteracao").CurrentValue = DateTime.Now;
+                    item.Property("IsActive").CurrentValue = true;
+                }
+
+                if (item.State == EntityState.Modified)
+                {
+                    item.Property("DataCadastro").IsModified = false;
+                    item.Property("DataAlteracao").CurrentValue = DateTime.Now;
+                }
+            }
+            return base.SaveChangesAsync();
+        }
     }
 }

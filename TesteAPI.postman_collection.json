@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "7a994a4c-c1a4-4970-86cd-4c3f9ae05eed",
+		"name": "TesteAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get EeatherForecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7010/WeatherForecast",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7010",
+					"path": [
+						"WeatherForecast"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ViaCep",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/01001000/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"01001000",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Contato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nome\":\"Pé de Pano\",\r\n    \"Email\": \"pede@pano.com\",\r\n    \"telefone\": \"(11) 99999-9999\",\r\n    \"Nascimento\": \"2022-06-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/api/contatos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"contatos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Contato Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"Nome\":\"Jonas Brothers\",\r\n    \"Email\": \"jonas@b.com\",\r\n    \"telefone\": \"(15) 88888-9999\",\r\n    \"Nascimento\": \"2010-06-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/api/contatos/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"contatos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remover Contato",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/api/contatos/3",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"contatos",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Contato",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nome\":\"Pé de Pano\",\r\n    \"Email\": \"pede@pano.com\",\r\n    \"telefone\": \"(11) 99999-9999\",\r\n    \"Nascimento\": \"2022-06-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/api/contatos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"contatos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get um Contato",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Nome\":\"Pé de Pano\",\r\n    \"Email\": \"pede@pano.com\",\r\n    \"telefone\": \"(11) 99999-9999\",\r\n    \"Nascimento\": \"2022-06-06\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44347/api/contatos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44347",
+					"path": [
+						"api",
+						"contatos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

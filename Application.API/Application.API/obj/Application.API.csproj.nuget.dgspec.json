@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {}
+    "C:\\Projetos\\PI\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {
+    "C:\\Projetos\\PI\\DDWIII\\Application.API\\Application.API\\Application.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
+        "projectUniqueName": "C:\\Projetos\\PI\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
         "projectName": "Application.API",
-        "projectPath": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
-        "packagesPath": "C:\\Users\\LabInfo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\DDWIII\\Application.API\\Application.API\\obj\\",
+        "projectPath": "C:\\Projetos\\PI\\DDWIII\\Application.API\\Application.API\\Application.API.csproj",
+        "packagesPath": "C:\\Users\\Sala-4\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\PI\\DDWIII\\Application.API\\Application.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LabInfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Sala-4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -69,6 +66,7 @@
               "version": "[2.1.14, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -83,10 +81,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
